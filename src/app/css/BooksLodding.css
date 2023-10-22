@@ -1,0 +1,75 @@
+.bookslodder{
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* background-color: aquamarine; */
+    top: 30px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+}
+.card-lodder{
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+}
+.image-lo{
+   
+        width: 100%;
+        height: 220px;
+        /* background-color: gray; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+   
+}
+.imagelodder{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(230, 230, 230);
+}
+.text-lodiv{
+    width: 100%;
+    height: 169px;
+    /* background-color: rgb(219, 156, 9); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text-lo{
+    width: 230px;
+    height: 20px;
+    background-color: rgb(226, 226, 226);
+}
+/* ................... Media Query ................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bookslodder {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .card-lodder{
+      width: 150px;
+    }
+    .image-lo{
+      height: 150px;
+    }
+    .imagelodder {
+      width: 150px;
+      height: 150px;
+    }
+    .text-lo{
+        width: 130px;
+        height: 20px;
+        background-color: rgb(226, 226, 226);
+    }
+  }
+  

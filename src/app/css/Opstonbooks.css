@@ -1,0 +1,166 @@
+.openstion {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.openstion-books {
+  width: 1400px;
+  height: auto;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-around;
+  align-items: center;
+}
+.Filtering-opstion {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#Filtering {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: 0;
+  background-color: transparent;
+  border: 1px solid#48C8BB;
+}
+option {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+}
+/* .................... Media Query ................... */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .openstion-books {
+    width: 350px;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .openstion-books::-webkit-scrollbar {
+    display: none;
+  }
+  #Filtering {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid#48C8BB;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .openstion-books {
+    width: 600px;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .openstion-books::-webkit-scrollbar {
+    display: none;
+  }
+  #Filtering {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid#48C8BB;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .openstion-books {
+    width: 768px;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .openstion-books::-webkit-scrollbar {
+    display: none;
+  }
+  #Filtering {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid#48C8BB;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .openstion-books {
+    width: 922px;
+    /* background-color: antiquewhite; */
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .openstion-books::-webkit-scrollbar {
+    display: none;
+  }
+  #Filtering {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid#48C8BB;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .openstion-books {
+    width: 1400px;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .openstion-books::-webkit-scrollbar {
+    display: none;
+  }
+  #Filtering {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid#48C8BB;
+  }
+}

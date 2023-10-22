@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Domine:wght@400;500&family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@500;600&family=Roboto:ital,wght@0,400;1,100;1,400&display=swap");
+.books-hero {
+  width: 100%;
+  height: 600px;
+  background-color: #f0f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books-hero-children {
+  width: 1400px;
+  height: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.books-hero-text {
+  width: 600px;
+  height: 200px;
+}
+.b-hero-text {
+  font-family: "Anton", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000px;
+  font-size: 48px;
+}
+.h-b-hero-text {
+  font-family: "Anton", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+}
+.books-hero-image {
+  width: auto;
+  height: auto;
+}
+.books-hero-image {
+  width: auto;
+  height: auto;
+}
+/* ............................ Media Query ................................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .books-hero-children {
+    width: 350px;
+    height: auto;
+
+    flex-direction: column-reverse;
+  }
+  .books-hero-text {
+    width: 350px;
+    height: auto;
+  }
+  .books-hero-image {
+    width: 350px;
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .books-hero-children {
+    width: 600px;
+    height: auto;
+
+    display: flex;
+    flex-direction: unset;
+  }
+  .books-hero-text {
+    width: 350px;
+    height: auto;
+  }
+  .books-hero-image {
+    width: 350px;
+    height: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .books-hero-children {
+    width: 768px;
+    height: auto;
+
+    display: flex;
+    flex-direction: unset;
+  }
+  .books-hero-text {
+    width: 350px;
+    height: auto;
+  }
+  .books-hero-image {
+    width: 400px;
+    height: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .books-hero-children {
+    width: 992px;
+    height: auto;
+
+    display: flex;
+    flex-direction: unset;
+  }
+  .books-hero-text {
+    width: 550px;
+    height: auto;
+  }
+  .books-hero-image {
+    width: 450px;
+    height: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .books-hero-children {
+    width: 1400px;
+    height: auto;
+
+    display: flex;
+    flex-direction: unset;
+  }
+  .books-hero-text {
+    width: 600px;
+    height: auto;
+  }
+  .books-hero-image {
+    width: auto;
+    height: auto;
+  }
+  .books-hero-image {
+    width: auto;
+    height: auto;
+  }
+}

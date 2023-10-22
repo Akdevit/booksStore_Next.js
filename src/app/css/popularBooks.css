@@ -1,0 +1,100 @@
+.popularBooks {
+  height: auto;
+  width: 100%;
+  position: relative;
+  /* background-color: aquamarine; */
+  top: 30px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+.popular-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.Popular-books-card {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.image-card {
+  width: 100%;
+  height: 220px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.books-card-image {
+  width: 220px;
+  height: 220px;
+}
+.title-books {
+  width: 240px;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.text-d {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.sampletext{
+  font-weight: bold;
+  color: #074348;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+/* ................... Media Query ................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .popularBooks {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    top: 50px;
+  }
+  .popular-text {
+    text-align: center;
+    margin-top: 150px;
+  }
+  .Popular-books-card {
+    width: 150px;
+  }
+  .image-card {
+    height: 150px;
+  }
+  .books-card-image {
+    width: 150px;
+    height: 150px;
+  }
+  .text-d {
+    width: 150px;
+    /* margin-top: 30px; */
+  }
+  .title-books {
+    width: 150px;
+  }
+}
+.a-link{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,167 @@
+.section-home {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-h {
+  width: 1400px;
+  height: auto;
+  background-color: #f0f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.h-text {
+  width: 600px;
+  height: 200px;
+}
+.text-h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1cm;
+  letter-spacing: 0.02em;
+}
+.text-p {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #001d3a;
+}
+.h-image {
+  width: auto;
+  height: auto;
+}
+.image-books {
+  width: 100%;
+  height: auto;
+}
+/* .......................... Media Query .................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sec-h {
+    width: 350px;
+    height: auto;
+    background-color: #f0f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+  }
+  .h-text {
+    width: 350px;
+    height: 200px;
+  }
+  .image-books {
+    width: 350px;
+    height: auto;
+  }
+  .text-h1 {
+    font-size: 30px;
+  }
+  .text-p {
+    background-color: #f0f9f9;
+    margin-top: -5px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .sec-h {
+    width: 650px;
+    height: auto;
+    background-color: #f0f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sec-h {
+    width: 750px;
+    height: auto;
+    background-color: #f0f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sec-h {
+    width: 1000px;
+    height: 420px;
+    background-color: #f0f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -10px;
+    flex-direction: unset;
+    border-radius: 5px;
+  }
+  .h-text {
+    width: 500px;
+    height: 200px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sec-h {
+    width: 1400px;
+    height: auto;
+    background-color: #f0f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .h-text {
+    width: 600px;
+    height: 200px;
+  }
+  .text-h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1cm;
+    letter-spacing: 0.02em;
+  }
+  .text-p {
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #001d3a;
+  }
+  .h-image {
+    width: auto;
+    height: auto;
+  }
+  .image-books {
+    width: 100%;
+    height: auto;
+  }
+}

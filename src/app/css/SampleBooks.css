@@ -1,0 +1,77 @@
+.text-sample {
+  text-align: center;
+  margin-top: 10px;
+}
+.SampleBooks {
+  height: auto;
+  width: 100%;
+  position: relative;
+  /* background-color: aquamarine; */
+  top: 30px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+.samp-card {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+}
+.image-card {
+  width: 100%;
+  height: 220px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.image-thumbnel {
+  width: 220px;
+  height: 220px;
+}
+.sample-title {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.sampletext {
+  font-weight: bold;
+  color: #074348;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+/* ................... Media Query ................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .SampleBooks {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .samp-card {
+    width: 150px;
+  }
+  .image-card {
+    height: 150px;
+  }
+  .image-thumbnel {
+    width: 150px;
+    height: 150px;
+  }
+  .sample-title {
+    margin-top: 30px;
+  }
+}
+.a-link {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,168 @@
+.Footer {
+  width: 100%;
+  height: auto;
+  background-color: #f0f9f9;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foter-sect {
+  width: 1400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+.logo-name-footer {
+  width: 400px;
+  height: auto;
+}
+.logo-footer-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-png {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.readbookname {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.readBookimage {
+  width: 500px;
+  height: 500px;
+}
+/* .............................. Media Query .................... */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .foter-sect {
+    width: 350px;
+    height: auto;
+    display: grid;
+  }
+  .logo-name-footer {
+    width: 350px;
+    height: auto;
+  }
+  .readBookimage {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .foter-sect {
+    width: 650px;
+    height: auto;
+    display: flex;
+  }
+  .logo-name-footer {
+    width: 350px;
+    height: auto;
+  }
+  .readBookimage {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .foter-sect {
+    width: 750px;
+    height: auto;
+    display: flex;
+  }
+  .logo-name-footer {
+    width: 350px;
+    height: auto;
+  }
+  .readBookimage {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .foter-sect {
+    width: 1100px;
+    height: auto;
+    display: flex;
+  }
+  .logo-name-footer {
+    width: 350px;
+    height: auto;
+  }
+  .readBookimage {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .foter-sect {
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+  .logo-name-footer {
+    width: 400px;
+    height: auto;
+  }
+  .logo-footer-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-png {
+    width: 100px;
+    height: 100px;
+  }
+
+  .menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .readbookname {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .readBookimage {
+    width: 500px;
+    height: 500px;
+  }
+}

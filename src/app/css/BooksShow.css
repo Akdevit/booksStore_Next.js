@@ -1,0 +1,94 @@
+.booksShow {
+  height: auto;
+  width: 100%;
+  position: relative;
+  /* background-color: aquamarine; */
+  top: 60px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+.card-books {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+}
+.image-box {
+  width: 100%;
+  height: 220px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.bookshowimage {
+  width: 220px;
+  height: 220px;
+}
+.text-name-show-book {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.pagination{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.pagi-btn{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+.pagination-button{
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(224, 224, 224);
+    background-color: transparent;
+    cursor: pointer;
+}
+.pagination-button:hover{
+    background-color: #48C8BB ;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.pages{
+    font-size: 20px;
+}
+/* ............................... Media Query .................. */
+@media only screen and (max-width: 600px) {
+  .booksShow {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .card-books {
+    width: 150px;
+  }
+  .image-box {
+    height: 150px;
+  }
+  .bookshowimage {
+    width: 150px;
+    height: 150px;
+  }
+  .text-name-show-book {
+    margin-top: 30px;
+  }
+}
+.a-link{
+  text-decoration: none;
+  color: black;
+}
